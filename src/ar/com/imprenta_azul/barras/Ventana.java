@@ -78,7 +78,7 @@ public class Ventana extends JFrame
 		try
 		{
 			b.add(new JComponent() {
-				Image logo = ImageIO.read(Ventana.class.getResourceAsStream("azul.png"));
+				Image logo = ImageIO.read(Ventana.class.getResourceAsStream("galetto.png"));
 				final static int margen = 50;
 
 				{
@@ -160,7 +160,7 @@ public class Ventana extends JFrame
 		menubar.add(menu);
 		setJMenuBar(menubar);
 		*/
-		JLabel label = new JLabel(" © 2004 Imprenta Azul");
+		JLabel label = new JLabel(" © 2016 Imprenta Galetto");
 		label.setEnabled(false);
 		label.setAlignmentX(Component.LEFT_ALIGNMENT);
 		cp.add(label);

@@ -46,7 +46,10 @@ enum TipoComprobante
 	NOTAS_DE_CREDITO_M ( 53, "Notas de crédito M" ),
 	RECIBOS_M ( 54, "Recibos M" ),
 	NOTAS_DE_VENTA_AL_CONTADO_M ( 55, "Notas de venta al contado M" ),
-	REMITO_R ( 91, "Remito R" );
+	REMITO_R ( 91, "Remito R" ),
+	
+	LIQUIDACIONES_A ( 63, "Liquidaciones A");
+
 
 	TipoComprobante(final int codigo, final String descripcion)
 	{
