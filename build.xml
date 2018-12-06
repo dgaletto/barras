@@ -16,7 +16,7 @@
 	<target name="jar" depends="compilar">
 		<jar jarfile="barras.jar" basedir="build">
 			<manifest>
-				<attribute name="Main-Class" value="ar.com.imprenta_azul.barras.Ventana"/>
+				<attribute name="Main-Class" value="ar.com.galetto.barras.Ventana"/>
 			</manifest>
 		</jar>
 	</target>

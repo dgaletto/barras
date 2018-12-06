@@ -14,7 +14,7 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package ar.com.imprenta_azul.barras;
+package ar.com.galetto.barras;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -160,7 +160,7 @@ public class Ventana extends JFrame
 		menubar.add(menu);
 		setJMenuBar(menubar);
 		*/
-		JLabel label = new JLabel(" © 2016 Imprenta Galetto");
+		JLabel label = new JLabel("Imprenta Galetto");
 		label.setEnabled(false);
 		label.setAlignmentX(Component.LEFT_ALIGNMENT);
 		cp.add(label);

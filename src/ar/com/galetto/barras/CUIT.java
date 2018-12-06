@@ -14,7 +14,7 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package ar.com.imprenta_azul.barras;
+package ar.com.galetto.barras;
 
 /** Representa un C.U.I.T.
  *  Esta clase representa a la famosa Clave Única de Identificación Tributaria.

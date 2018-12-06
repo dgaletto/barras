@@ -14,7 +14,7 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package ar.com.imprenta_azul.barras;
+package ar.com.galetto.barras;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -73,7 +73,7 @@ public class Barras implements Serializable, Cloneable, Transferable
 	 *  que aclara a la RG 1361 que es citada por la nota externa 07/04
 	 *  que amplía la información de la RG 1702.
 	 */
-	private static final MessageFormat fmt = new MessageFormat("{0} {1,number,00} {2,number,0000} {3,number,00000000000000} {4,date,yyyyMMdd} ");
+	private static final MessageFormat fmt = new MessageFormat("{0} {1,number,000} {2,number,00000} {3,number,00000000000000} {4,date,yyyyMMdd} ");
 	
 	/** El font usado para el texto que va debajo del código.
 	 */
